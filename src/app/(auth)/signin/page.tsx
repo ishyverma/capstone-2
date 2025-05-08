@@ -46,7 +46,7 @@ const SignIn = (props: Props) => {
       });
 
       toast.success(response.data.message);
-      router.push("/dashboard");
+      router.push("/auction");
     } catch (error) {
       console.log("SIGNIN_ERROR", error);
     }

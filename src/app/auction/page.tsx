@@ -23,4 +23,6 @@ const Auction = async (props: Props) => {
   );
 };
 
+export const dynamic = "force-dynamic"
+
 export default Auction;
